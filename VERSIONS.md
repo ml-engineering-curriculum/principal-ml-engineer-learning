@@ -2,4 +2,5 @@
 
 | Tag | Date | Highlights |
 |---|---|---|
-| (unreleased) | TBD | initial scaffold |
+| (unreleased) | 2026-07-08 | Bootstrap curriculum plan authored from the 2026-04-08 → 2026-07-08 research packet: `.aicg/job-requirements.json` (26 postings sampled, four principal-scope requirements at freq ≥ 0.60), `.aicg/curriculum-plan.json` (6 modules + 3 projects, ~145 planned hours), `JOB_REQUIREMENTS.md`, `CURRICULUM.md`, `PREREQUISITES.md`, and `README.md` updated to reflect the plan. Modules cover the four material principal-scope themes (org- and industry-wide ML strategy, north-star applied-ML architecture, cross-org influence without authority, principal mentorship & technical-bar calibration) plus one below-threshold theme grounded in role definition (`req-industry-influence`, freq 0.15) that the packet flagged as owned here pending an explicit bootstrap cycle — this cycle. All other material requirements in the sample (Gen-AI depth, RecSys, MLOps, agentic, distributed-training, responsible-AI at portfolio scope, executive-audience RFC craft, staff-plus hiring) are linked to their lower-level owners per the Ownership Rule rather than duplicated here. Next research re-sample due 2026-10-08. |
+| (initial scaffold) | 2026-06-25 | Empty directory scaffold from `aicg org bootstrap-role`. |
