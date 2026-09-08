@@ -1,22 +1,50 @@
 # mod-504-cross-org-influence-without-authority: Cross-Org Influence Without Authority — SVP/CTO-Level Consensus and Executive-Branch Partnership
 
-> Scaffolded by `aicg org execute-plan`. Lecture chapters and exercise content are authored on subsequent autonomous cycles.
-
 **Estimated effort:** 12 hours
+
+This module owns the *practice* of holding the seams that mod-503 chapter 8 draws and moving the bets that mod-502 names — but doing it from the IC-principal seat, without the direct authority that comes with an executive title. The target framings are Capital One's *"influence cross-functional stakeholders up to the SVP level"* (Sr. Distinguished AI Engineer), Bumble's *"operate as a senior individual contributor, influencing technical strategy and decision-making without direct authority"* (Principal ML Engineer, Matching and Recommendations), Twilio's *"lead cross-functional engineering efforts, breaking down complex initiatives into executable roadmaps"* (Principal ML Engineer), and Wiser's *"define and evolve the AI and data science technical strategy in partnership with product and business leadership"* (Principal ML Engineer). Every chapter treats one clause of that composite target.
+
+Read the chapters in order. Chapter 1 fixes what *influence without authority* means at principal altitude and separates it from three adjacent skills. Chapter 2 draws the SVP / CTO vs. VP audience boundary that decides which artifact you write. Chapter 3 walks the executive-branch partnership contract — what the IC-principal brings and what the peer executive (CAIO, Head of AI Governance, CISO, CFO) brings. Chapter 4 walks coalition-building as an engineering discipline. Chapter 5 walks the SVP / CTO-audience narrative craft — one-pager, deep-dive, FAQ. Chapter 6 walks the escalation and deferred-decision protocol.
 
 ## Learning objectives
 
-- Sit as the ML org's technical voice in cross-functional executive reviews and drive consensus at organizational level — influence stakeholders up to the SVP / CTO level without direct authority, per Capital One 'influence cross-functional stakeholders up to the SVP level' and Bumble 'operate as a senior individual contributor, influencing technical strategy and decision-making without direct authority'
-- Distinguish the principal-scope executive audience (SVP / CTO / CEO / board sub-committee) from the staff-scope executive audience (VP / Director of Product / peer platform VP) — and adjust the artifact accordingly. Reuse the staff-scope executive-audience RFC portfolio (`staff-ml-engineer-learning` mod-410 exercise-02) as the base and lift, not replace.
-- Partner with the peer executive branch — Head of AI / Chief AI Officer (owned by `chief-ai-officer-learning`), Head of AI Governance (owned by `head-of-ai-governance-learning`), the CISO, the CFO — as the IC-principal counterpart. Set the contract for what the principal brings (technical narrative, defensible bet framing, architecture-level judgement) and what the executive branch brings (headcount, budget, board mandate, P&L)
-- Build cross-org coalitions across multiple product organizations: sequence the pre-reads, the one-on-one prep, the room the decision actually gets made in, and the follow-up commitment tracking — treat coalition-building as an engineering discipline rather than a soft skill
-- Write the SVP / CTO-audience narrative for an ML bet — one-pager, deep-dive, and the FAQ that anticipates the objections a CTO or CFO will bring. Ground the craft in Twilio 'lead cross-functional engineering efforts, breaking down complex initiatives into executable roadmaps' and Wiser 'define and evolve the AI and data science technical strategy in partnership with product and business leadership'
-- Run the escalation protocol: when to bring a cross-org disagreement to an executive decision, when to keep grinding at the technical layer, and when to accept the org isn't ready for the bet (and the artifact that documents the deferred decision so the next cycle can revisit it)
+- Sit as the ML org's technical voice in cross-functional executive reviews and drive consensus at organizational level — influence stakeholders up to the SVP / CTO level without direct authority, per Capital One *"influence cross-functional stakeholders up to the SVP level"* and Bumble *"operate as a senior individual contributor, influencing technical strategy and decision-making without direct authority"*.
+- Distinguish the principal-scope executive audience (SVP / CTO / CEO / board sub-committee) from the staff-scope executive audience (VP / Director of Product / peer platform VP) — and adjust the artifact accordingly. Reuse the staff-scope executive-audience RFC portfolio ([`staff-ml-engineer-learning`](https://github.com/ml-engineering-curriculum/staff-ml-engineer-learning) mod-410 exercise-02) as the base and *lift*, not replace.
+- Partner with the peer executive branch — Head of AI / Chief AI Officer (owned by [`chief-ai-officer-learning`](https://github.com/ml-engineering-curriculum/chief-ai-officer-learning)), Head of AI Governance (owned by [`head-of-ai-governance-learning`](https://github.com/ml-engineering-curriculum/head-of-ai-governance-learning)), the CISO, the CFO — as the IC-principal counterpart. Set the contract for what the principal brings (technical narrative, defensible bet framing, architecture-level judgement) and what the executive branch brings (headcount, budget, board mandate, P&L).
+- Build cross-org coalitions across multiple product organizations: sequence the pre-reads, the one-on-one prep, the room the decision actually gets made in, and the follow-up commitment tracking — treat coalition-building as an engineering discipline rather than a soft skill.
+- Write the SVP / CTO-audience narrative for an ML bet — one-pager, deep-dive, and the FAQ that anticipates the objections a CTO or CFO will bring. Ground the craft in Twilio *"lead cross-functional engineering efforts, breaking down complex initiatives into executable roadmaps"* and Wiser *"define and evolve the AI and data science technical strategy in partnership with product and business leadership"*.
+- Run the escalation protocol: when to bring a cross-org disagreement to an executive decision, when to keep grinding at the technical layer, and when to accept the org isn't ready for the bet (and the artifact that documents the deferred decision so the next cycle can revisit it).
+
+## Chapters
+
+1. [`01-what-influence-without-authority-means-at-principal-scope.md`](01-what-influence-without-authority-means-at-principal-scope.md) — the working definition, the four-posting target framing unpacked (Capital One + Bumble + Twilio + Wiser), and the five defensibility tests (technical-voice legitimacy, audience-matched artifact, executive-branch partnership contract, coalition sequencing on an engineering cadence, escalation discipline). What the practice is *not* — mentorship, soft-skills-only stakeholder management, a stepping stone to VP, or "just be very persuasive".
+2. [`02-principal-vs-staff-executive-audience.md`](02-principal-vs-staff-executive-audience.md) — the audience boundary. SVP / CTO / CEO / board sub-committee (principal) vs. VP / Director of Product / peer platform VP (staff). What changes between the two audiences: the level of the argument, the horizon, the artifact shape, the meeting-room dynamics. The *lift, not replace* rule for the staff-scope RFC portfolio owned by [`staff-ml-engineer-learning`](https://github.com/ml-engineering-curriculum/staff-ml-engineer-learning) mod-410 exercise-02. Three lift-vs-replace failure modes.
+3. [`03-peer-executive-branch-partnership-contract.md`](03-peer-executive-branch-partnership-contract.md) — the four counterparts (CAIO, Head of AI Governance, CISO, CFO) and the specific contract per counterpart. What each brings that the IC-principal cannot bring (headcount, budget, board mandate, P&L, policy authorship, regulatory sign-off), what the IC-principal brings that they cannot (defensible bet framing, architecture-level judgement, technical narrative, cross-team ratification signal), and the cadence discipline that keeps the contract alive.
+4. [`04-coalition-building-as-an-engineering-discipline.md`](04-coalition-building-as-an-engineering-discipline.md) — the four-stage sequence (pre-read → one-on-one prep → decision-room → follow-up commitment tracking) and why "the room the decision is actually made in" is almost never the room where the decision is announced. The instrumentation: a coalition tracker with named stakeholders, positions, and shift signals. Three failure modes (surprise-in-the-room, coalition-of-one, no-commitment-tracking).
+5. [`05-svp-cto-audience-narrative-craft.md`](05-svp-cto-audience-narrative-craft.md) — the three-artifact pattern (one-pager, deep-dive, FAQ). Anticipating the specific objections a CTO, CFO, and CISO bring. The FAQ as a coalition tool, not a Q&A appendix. Grounded in Twilio's *"executable roadmaps"* and Wiser's *"in partnership with product and business leadership"*. Reuses mod-502 chapter 7's paired-artifact frame and *lifts* it to SVP / CTO audience.
+6. [`06-escalation-and-deferred-decision-protocol.md`](06-escalation-and-deferred-decision-protocol.md) — the three-way question every cross-org disagreement resolves into (escalate, grind, defer), the escalation protocol itself, the *deferred-decision artifact* that documents a *not-yet* decision so the next cycle can revisit it, and the discipline that separates *deferred* from *dead*.
+
+## Exercises
+
+Four exercises. Each builds one of the four artifacts a principal in this seat needs to have on hand.
+
+- [`exercises/exercise-01-svp-cto-audience-one-pager-and-deep-dive-pair.md`](exercises/exercise-01-svp-cto-audience-one-pager-and-deep-dive-pair.md) — 3h. Take the mod-502 one-pager + deep-dive strategy artifact and *lift* it to the SVP / CTO audience. Add the FAQ.
+- [`exercises/exercise-02-principal-executive-partnership-contract.md`](exercises/exercise-02-principal-executive-partnership-contract.md) — 3h. Author the four short partnership contracts — with the CAIO / Head of AI, Head of AI Governance, CFO, CISO — that name what each side brings, the cadence, and the escalation path.
+- [`exercises/exercise-03-cross-org-coalition-sequencing-plan.md`](exercises/exercise-03-cross-org-coalition-sequencing-plan.md) — 3h. Pick a bet from your mod-502 portfolio. Draft the coalition tracker, the pre-read distribution list, the one-on-one prep notes, the decision-room agenda, and the follow-up commitment tracker.
+- [`exercises/exercise-04-escalation-and-deferred-decision-artifact.md`](exercises/exercise-04-escalation-and-deferred-decision-artifact.md) — 3h. Draft the escalation protocol document, one worked escalation, and one deferred-decision artifact with the revisit criteria that keep it from becoming dead scope.
 
 ## Structure
 
-- `01-…md` … `0N-…md`: lecture chapters.
-- `exercises/`: per-exercise prompts.
-- `labs/`: long-form hands-on labs.
-- `quizzes/`: knowledge checks.
-- `resources.md`: external references.
+- `01-…md` … `06-…md`: lecture chapters.
+- `exercises/`: four hands-on exercises, one per artifact class.
+- `labs/`: reserved for optional long-form labs.
+- `quizzes/`: knowledge check for the module.
+- `resources.md`: cited external references — the influence-without-authority literature, the executive-communication craft canon, the coalition-building references, peer executive-branch tracks, and the staff-scope RFC portfolio this module lifts from.
+
+## Companion material
+
+- [`../mod-502-org-and-industry-ml-strategy/`](../mod-502-org-and-industry-ml-strategy/) — the strategy artifact the SVP / CTO narrative in chapter 5 lifts. Chapter 7 (the paired-artifact frame) is the direct prerequisite for exercise-01.
+- [`../mod-503-north-star-applied-ml-architecture/`](../mod-503-north-star-applied-ml-architecture/) — the architecture whose seams (chapter 8) this module walks in the room. Chapter 3 in this module is the practice of holding the seams chapter 8 there named.
+- [`../mod-505-principal-mentorship-and-technical-bar/`](../mod-505-principal-mentorship-and-technical-bar/) — the technical-bar work that gives the principal's cross-org voice its credibility. The two modules together are what project-502 (cross-org influence and technical-bar simulation) integrates.
+- [`../../JOB_REQUIREMENTS.md`](../../JOB_REQUIREMENTS.md) — the 26-posting evidence catalogue the Capital One / Bumble / Twilio / Wiser target framings quoted throughout are sourced from.
+- [`../../CURRICULUM.md`](../../CURRICULUM.md) — where mod-504 sits in the six-module arc.
