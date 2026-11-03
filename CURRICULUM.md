@@ -1,5 +1,9 @@
 # Principal Machine Learning Engineer Curriculum
 
+<!-- aicg:orientation:start -->
+> **Start here:** [Module 00: Your Relationship to the Model](lessons/00-your-relationship-to-the-model/README.md). Where this role sits relative to the model, what it owns, and who it works with across the five curricula.
+<!-- aicg:orientation:end -->
+
 **Role level:** 48 (principal IC altitude, ML engineering ladder — above `staff-ml-engineer-learning` at level 40, below the peer executive branch owned by `chief-ai-officer-learning` / `head-of-ai-governance-learning`)
 **Status:** planned — modules and projects below are the planned scope authored from [`.aicg/curriculum-plan.json`](.aicg/curriculum-plan.json). Lessons and projects will be drafted by subsequent autonomous content cycles.
 
